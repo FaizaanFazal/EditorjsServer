@@ -45,7 +45,7 @@ exports.createByUrl = async (req, res) => {
         res.json({
           success: 1,
           file: {
-            url: `https://localhost:3001/${imagePath}`,
+            url: `http://localhost:3001/${imagePath}`,
           },
         });
       });
